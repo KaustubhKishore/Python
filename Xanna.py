@@ -1,13 +1,13 @@
-test_case= input("Enter the number of test cases")
+test_case= input("") #Enter the number of test cases
 p=0
 while(p<test_case):
-    x= input('Enter the number of tasks: ')
+    x= input('') #Enter the number of tasks: 
     xen=list()
     yan=list()
     for i in range(x):
-        temp= input("Enter time for xenny: ")
+        temp= input("") #Enter time for xenny
         xen.append(temp)
-        temp= input("Enter time for yan: ")
+        temp= input("") #Enter time for yan
         yan.append(temp)
     time_sum=0
     time_sum2=0
@@ -20,8 +20,7 @@ while(p<test_case):
             time_sum2+=xen[i]
 
     if(time_sum>time_sum2):
-        print "Minimum time taken by Xenny and Yanna is: ",time_sum2
+        print "",time_sum2 #Minimum time taken by Xenny and Yanna is
     else:
-        print "Minimum time taken by Xenny and Yanna is: ", time_sum
+        print "", time_sum #Minimum time taken by Xenny and Yanna is
     p+=1
-
