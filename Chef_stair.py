@@ -12,14 +12,14 @@
 # Chef has enlisted your help to decide whether he should use stairs or the
 # elevator to minimize his travel time. Can you help him out?
 
-floors= input("Enter number of floors: ")
-stairs= input('Enter the velocity of chef: ')
-lift=   input("Enter velocity of lift: ")
+floors= input("") #Enter number of floors: 
+stairs= input('') #Enter the velocity of chef: 
+lift=   input("") #Enter velocity of lift: 
 
 total_stair=float((floors*(2**(0.5)))/stairs)
 total_lift=float(float((2*floors))/lift)
 
 if(total_stair<total_lift):
-    print "Take the Stairs!"
+    print "Stairs"
 else:
-    print "Take the elevator!"
+    print "Elevator"
