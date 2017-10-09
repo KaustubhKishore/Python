@@ -5,8 +5,8 @@
 # Limak can eat at most A candies in total (otherwise he would become sick),
 # while Bob can eat at most B candies in total. Who will win the game? Print "Limak" or "Bob" accordingly.
 
-limak= input("Enter number of candies Limak can eat: ")
-bob= input("Enter number of candies Bob can eat: ")
+limak= input("")
+bob= input("")
 p=1
 flag=1
 winner=0
@@ -27,6 +27,6 @@ while(flag==1):
             flag=0
     p+=1
 if(winner==1):
-    print "Limak Wins!"
+    print "Limak"
 elif(winner==2):
-    print "Bob wins!"
+    print "Bob"
