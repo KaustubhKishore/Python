@@ -3,7 +3,7 @@
 # except:
 #     print 'Invalid input.'
 #     y=input("enter 1.To retry")
-#     while(y==1):
+#     while(y==1)://mm
 #         m=input("Enter your age: ")
 #         print 'your age is: ',m
 #         y=input("enter 1 again to retry")
