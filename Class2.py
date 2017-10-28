@@ -1,5 +1,5 @@
 # try:
-#     x = input("Enter your age")
+#     x = input("Enter your age")//nice
 # except:
 #     print 'Invalid input.'
 #     y=input("enter 1.To retry")
