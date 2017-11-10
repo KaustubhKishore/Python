@@ -18,3 +18,4 @@ b=B("My name is B")
 c=C("My name is C")
 d=D("My name is D")
 d.printD()
+#compund inheritance example
