@@ -3,7 +3,7 @@
 #
 # for i in range(t):
 #     temp= input("Enter element of list: ")
-#     a.append(temp)
+#     a.append(temp)//very good ma boi
 #
 #
 # flag=0
