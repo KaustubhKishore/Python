@@ -26,7 +26,3 @@ elif(ret == 1):
     print("Red")
 
 plt.show()
-
-
-
-
