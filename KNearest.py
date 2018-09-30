@@ -2,7 +2,7 @@ import cv2
 import numpy
 import matplotlib.pyplot as plt
 
-
+// Sample KNeighbors test code
 
 testData = numpy.random.randint(0,100,(20,2)).astype(numpy.float32)
 red_blue = numpy.random.randint(0,2,20).astype(numpy.float32)
